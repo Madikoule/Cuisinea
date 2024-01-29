@@ -12,7 +12,7 @@
 
         </div>
 
-<div class="col mb-3">
+    <div class="col mb-3">
         <h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Section</font></font></h5>
             <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Maison</font></font></a></li>

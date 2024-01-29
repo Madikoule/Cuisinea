@@ -1,3 +1,8 @@
+<?php 
+        require_once('lib/config.php');
+    
+
+?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -23,11 +28,11 @@
         </div>
 
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 link-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Maison</font></font></a></li>
-            <li><a href="#" class="nav-link px-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Caractéristiques</font></font></a></li>
-            <li><a href="#" class="nav-link px-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tarifs</font></font></a></li>
-            <li><a href="#" class="nav-link px-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FAQ</font></font></a></li>
-            <li><a href="#" class="nav-link px-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">À propos</font></font></a></li>
+            <li class="nav-item"><a href="index.php" class="nav-link <?php if ($currentPage === 'index.php') {  echo 'active'; } ?> ">Accueil</a></li>
+            <li class="nav-item"><a href="recettes.php" class="nav-link px-2  <?php if ($currentPage === 'recettes.php') {  echo 'active'; } ?>">Nos recettes</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2">Tarifs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2">FAQ</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2">À propos</a></li>
         </ul>
 
         <div class="col-md-3 text-end">
