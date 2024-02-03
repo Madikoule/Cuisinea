@@ -8,6 +8,11 @@
 
     $id = $_GET['id'];
 
+    $query = $pdo ->prepare("SELECT * FORM recipes WHERE id = :id");
+    $query ->binParam(': id', $id, PDO::PARAM_INT);
+    $query ->execute();
+    $recipe = $query ->fetch();
+
 ?>
 
     <div class="container col-xxl-8 px-4 py-5">
