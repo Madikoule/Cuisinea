@@ -24,7 +24,7 @@
 
 <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
         <div class="col-md-3 mb-2 mb-md-0">
-            <a href="5ndex.php" class="d-inline-flex link-body-emphasis text-decoration-none">
+            <a href="index.php" class="d-inline-flex link-body-emphasis text-decoration-none">
                 <img src="assets/images/logo-cuisinea-horizontal.jpg" alt="logo cuisinea" width="250">
             </a>
         </div>

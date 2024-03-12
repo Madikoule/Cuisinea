@@ -34,7 +34,7 @@
 
 <?php
     foreach ($recipes as $key => $recipe) { 
-    include('templates/recipe_partial.php');
+    include ('templates/recipe_partial.php');
 
 } ?>
 
